@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int u = scan.nextInt();
+		System.out.println(u/1000 + u/100%10 == u/10%10 + u%10);
+	}
+}

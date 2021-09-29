@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		double a = scan.nextDouble();
+		double b = scan.nextDouble();
+		double c = Math.sqrt(a*a + b*b);
+		double perimeter = a + b + c;
+		double square = a*b/2;
+		System.out.printf("Периметр треугольника равен %.2f\nПлощадь треугольника равна %.2f",perimeter, square);
+	}
+}

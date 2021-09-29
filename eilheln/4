@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int x = scan.nextInt();
+        int y = scan.nextInt();
+        boolean res = false;
+        if (x <= 2 || x >= -2 && y >= 0 || y <= 4) {
+            res = true;
+        }
+        if (x <= 4 || x >= -4 && y >= -3 || y <= 0) {
+            res = true;
+        }
+        System.out.println(res);
+	}
+}
